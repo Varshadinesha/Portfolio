@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-:root {
-    --background-color:000000;
-    --primary-color: #00aaff; /* blue */
-    --card-bg-color: rgba(0, 0, 0, 0.7); /* dark blue/black galaxy */
-    --text-color: #e0e0e0;
 
+:root {
+    --primary-color: #00aaff;
+    --background-color: #000000;
+    --text-color: #e0e0e0;
+    --card-bg-color: rgba(10, 25, 47, 0.7);
 }
+
+
 
 html {
     scroll-behavior: smooth;
@@ -16,7 +18,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
-    background-color: var(--background-color);
+    background-color: var(black);
     overflow-x: hidden;
 }
 
@@ -220,5 +222,6 @@ h2 {
     font-weight: bold;
     font-size: 1rem;
 }
+
 
 
