@@ -41,8 +41,8 @@ body {
 }
 
 #navbar.scrolled {
-    background-color: rgba(0, 0, 5, 0.8);
-    backdrop-filter: blur(5px);
+    background-color: #000;  /* solid black */
+    backdrop-filter: none;
 }
 
 .nav-link {
@@ -75,7 +75,6 @@ section {
     position: relative;
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 section.is-visible {
@@ -218,4 +217,5 @@ h2 {
     font-weight: bold;
     font-size: 1rem;
 }
+
 
