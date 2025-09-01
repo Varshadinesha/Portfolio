@@ -67,7 +67,7 @@ body {
 main {
     position: relative;
     z-index: 0;
-    background-color:black;
+    background-color:transparent;
 }
 
 section {
@@ -271,5 +271,6 @@ h2 {
         font-size: 0.9rem;
     }
 }
+
 
 
