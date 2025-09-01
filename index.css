@@ -38,7 +38,6 @@ body {
     justify-content: center;
     gap: 2rem;
     z-index: 100;
-    transition: background-color 0.3s ease;
 }
 
 #navbar.scrolled {
@@ -219,3 +218,4 @@ h2 {
     font-weight: bold;
     font-size: 1rem;
 }
+
