@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #00aaff;
-    --background-color: #000005;
+    --background-color: #000000;
     --text-color: #e0e0e0;
     --card-bg-color: rgba(10, 25, 47, 0.7);
 }
@@ -219,3 +219,4 @@ h2 {
     font-weight: bold;
     font-size: 1rem;
 }
+
