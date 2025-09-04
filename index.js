@@ -37,7 +37,7 @@ const nebulaTexture = new THREE.TextureLoader().load('https://i.imgur.com/9H4gC9
 const nebulaMaterial = new THREE.PointsMaterial({
     map: nebulaTexture, size: 20, sizeAttenuation: true, transparent: true,
     opacity: 0.02, blending: THREE.AdditiveBlending,
-    depthWrite: false, color: 0x00aaff
+    depthWrite: false, color: 0x000000
 });
 const nebulaGeometry = new THREE.BufferGeometry();
 const nebulaCount = 3000;
@@ -105,3 +105,4 @@ const observer = new IntersectionObserver((entries) => {
 sections.forEach(section => {
     observer.observe(section);
 });
+
